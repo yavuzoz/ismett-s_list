@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(to top, #960101, #000000);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.customer-list-name {
+    background-color: rgb(104, 34, 34);
+    margin: 1vw;
+    border-radius: 5px;
+}
+
+#start-page {
+    background-color: rgb(37, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 2px;
+}
+
+h2 {
+    color: brown
+}
+
+#customer-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-header {
+    color: burlywood;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#death-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form {
+    margin-top: 2vh;
+}
+
+.victim-info {
+    background-color: rgb(22, 82, 35);
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 1vh;
+}
+
+#address-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#address-list {
+    background-color: rgb(95, 79, 238);
+    margin: 1vw;
+    border-radius: 5px;
+    padding: 1vh;
+}
+
+#address-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#checked-img {
+    opacity: 0.5;
+}
